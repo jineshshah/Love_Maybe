@@ -5,7 +5,18 @@ gem 'rails', '3.2.12'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
+
+#Added gem pg coz heroku uses pg for production and has problems wil sqllite3
+
+group :production do
+	gem 'pg'
+end
+
+#Edited sqlite3 gem and made it only development and test and not production to run with heroku.
+
+group :development, :test do
+	gem 'sqlite3'
+end
 
 
 # Gems used only for assets and not required
