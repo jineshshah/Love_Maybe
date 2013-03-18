@@ -1,4 +1,14 @@
 Omrails::Application.routes.draw do
+
+  get 'about' => 'pages#about'
+
+  root :to => 'pages#home' 
+  
+
+# We commented the "get "pages/home" " line coz we want 
+# our home page to show up at the beginning not when we type /pages/home.
+  # get "pages/home"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
