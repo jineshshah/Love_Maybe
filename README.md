@@ -1,6 +1,7 @@
-# One Month Rails
+This is my first trial App. This is just a fun app to show how much I love Aly and care about her.
 
-This is the sample application for 
-[*One Month Rails: Teach Yourself to Code*](http://onemonthrails.com)
+This is dedicated to [Alyson Lindsey Wright](http://AwesomeSmartSexyCaringBeautifulALY.love)
 
-by [Mattan Griffel](http://mattangriffel.com)
+She is very caring, smart, beautiful  
+
+by [Jinesh Shah](http://LuckyGuy.love)
